@@ -1,0 +1,5 @@
+/* search.wxss */
+image{
+  width:350rpx;
+  height:280rpx;
+}

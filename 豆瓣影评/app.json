@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/hotPage/hotPage",
+    "pages/comingSoon/comingSoon",
+    "pages/search/search",
+    "pages/more/more"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/hotPage/hotPage",
+      "text": "本地热映"
+    },{
+      "pagePath": "pages/comingSoon/comingSoon",
+      "text": "即将上映"
+    },{
+      "pagePath": "pages/search/search",
+      "text": "影片搜索"
+    }]
+  }
+}

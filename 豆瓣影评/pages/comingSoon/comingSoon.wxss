@@ -1,0 +1,5 @@
+/* comingSoon.wxss */
+image{
+  width:350rpx;
+  height:250rpx;
+}

@@ -1,0 +1,30 @@
+
+ <view class="movies" wx:for="{{movies}}" id="{{item.id}}" bindtap="jumpTomore">
+  
+    <view class="myimage">
+       <image src="{{item.images.medium}}"></image> 
+    </view>
+    <view class="moveInfo">
+      <view class="title">
+        名称:{{item.title}}
+      </view>
+      <view class="daoyan">
+        导演:{{item.directors["0"].name}}
+      </view>
+      <view class="yanyuanlist">
+        <view class="left">演员:</view> 
+        <view class="right" >
+        <block wx:for="{{item.casts}}">{{item.name}} </block>
+        </view>
+      </view>
+      <view class="fenlei">
+        分类:{{item.genres}}
+      </view>
+      <view class="year">
+        上映时间:{{item.year}}
+      </view>
+    </view>
+  
+</view> 
+
+

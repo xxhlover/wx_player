@@ -1,0 +1,29 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* hotPage.wxss */
+.movies{
+  display:flex;
+}
+.myimage{
+  flex: 1;
+}
+.moveInfo{
+  flex: 2;
+}
+.yanyuanlist{
+  display:flex;
+}
+.left{
+  flex:1;
+}
+.right{
+  flex:2;
+}

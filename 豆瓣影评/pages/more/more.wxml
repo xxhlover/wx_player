@@ -1,0 +1,13 @@
+<!--more.wxml-->
+<image src="{{imageUrl}}"></image>
+<view class="moveInfo">
+  <view class="title">名字:{{title}}</view>
+  <view class="director">导演:{{director}}</view>
+  <view class="castleft">主演:</view>
+  <view class="casts" wx:for="{{casts}}">
+    <block class="castright">{{item.name}}</block>
+  </view>
+  <view class="year">年份:{{year}}</view>
+  <view class="rate">评分:{{rate}}</view>
+  <view class="summary">介绍:{{summary}}</view>
+</view>
