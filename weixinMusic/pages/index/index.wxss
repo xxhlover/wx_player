@@ -1,0 +1,17 @@
+/* index.wxss */
+page{
+  height:100%;
+}
+.out-box{
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-box{
+  width:600rpx;
+}
+.inner-box image{
+  width:300rpx;
+  height:300rpx;
+}

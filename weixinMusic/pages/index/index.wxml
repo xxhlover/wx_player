@@ -1,0 +1,8 @@
+<view class="out-box">
+  <view class="inner-box" bindtap="jumpToSongList">
+    <image src="../../image/newMusic.jpg" id="1"></image>
+    <image src="../../image/hotMusic.jpg" id="2"></image>
+    <image src="../../image/meiMusic.jpg" id="21"></image>
+    <image src="../../image/flyMusic.png" id="25"></image>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+/* singer.wxss */
+.singers{
+  width:45%;
+ 
+  float:left;
+  margin-left:20rpx;
+}
+.singers image{
+  width:100%;
+  height:300rpx;
+}

@@ -1,0 +1,11 @@
+/* chooseSinger.wxss */
+.song-title{
+  font-size:40rpx;
+}
+.song-album{
+  font-size:30rpx;
+  color:grey;
+}
+.song{
+  border-bottom: 2rpx dotted grey;
+}

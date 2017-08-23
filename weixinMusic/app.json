@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/singer/singer",
+    "pages/songList/songList",
+    "pages/play/play",
+    "pages/chooseSinger/chooseSinger"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "心悦音乐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "榜单"
+      },
+      {
+        "pagePath": "pages/singer/singer",
+        "text": "歌手"
+      }
+    ]
+  }
+}

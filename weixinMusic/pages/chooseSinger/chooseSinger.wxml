@@ -1,0 +1,5 @@
+<!--chooseSinger.wxml-->
+<view id="{{index}}" class="song" wx:for="{{sings}}" bindtap="play">
+  <view class="song-title">{{item.title}}</view>
+  <view class="song-album">{item.album_title}}</view>
+</view>

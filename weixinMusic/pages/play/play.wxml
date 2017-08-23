@@ -1,0 +1,17 @@
+<!--play.wxml-->
+
+ <audio src="{{musicUrl}}" id="myMusic" bindtimeupdate="timeUpdate"></audio>
+ <view class="music">
+ <image animation="{{animationData}}" class="bgImage" src="{{bgImage}}"></image>
+</view>
+<view class="classname1">
+  {{musicName}}
+</view>
+<progress stroke-width="8" percent="{{percent}}" color="green"/>
+<view class="classname2"></view>
+<view class="music">
+  <image class="bgImage playType" src="{{playTypeUrl}}" bindtap="playType"></image>
+ <image class="bgImage con" src="../../image/last.png" bindtap="last"></image>
+ <image class="bgImage con" src="{{playOrPause}}" bindtap="play"></image>
+ <image class="bgImage con" src="../../image/next.png" bindtap="next"></image>
+</view>

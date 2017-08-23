@@ -1,0 +1,32 @@
+/* play.wxss */
+
+.bgImage {
+  height: 400rpx;
+  width: 400rpx;
+  border-radius: 50%;
+}
+.music{
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con {
+  width:100rpx;
+  height:100rpx;
+  margin-left:20rpx;
+}
+.playType{
+  border-radius:0%;
+  width:70rpx;
+  height:70rpx;
+  margin-right:80rpx;
+}
+.classname1{
+  height:400rpx;
+  padding-top:50rpx;
+  text-align: center;
+}
+.classname2{
+  height:100rpx;
+}

@@ -1,0 +1,11 @@
+<!--songList.wxml-->
+<view id="{{index}}" wx:for="{{songList}}" bindtap="chooseMusic">
+<view class="song">
+  <view class="song-title">
+    {{index+1}}{{item.title}}
+  </view>
+  <view class="song-album">
+    {{item.album_title}}
+  </view>
+</view>
+</view>

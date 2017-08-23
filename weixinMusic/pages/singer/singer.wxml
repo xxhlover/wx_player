@@ -1,0 +1,10 @@
+<!--singer.wxml-->
+<view class="singers" wx:for="{{singers}}">
+  <view class="singer" id="{{item.ting_uid}}" bindtap="chooseSinger">
+    <image src="{{item.avatar_middle}}"></image>
+    <view class="singerName">
+      {{item.name}}
+    </view>
+  </view>
+</view>
+
